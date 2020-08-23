@@ -33,7 +33,7 @@ we can send files to the server. The first thing we check is what files can be s
 next to "tun0" (your ip in VPN). The port set on the "hacker" 4444. ($ ip, $ port). And let's save the file.
 (I used the "nano" editor, but you can use the editor that is more convenient for you, e.g. "vi")
 
-9. To intercept reverse shell it would be nice to listen to the port we set up. We will use "NetCat" for this:
+9. To intercept reverse shell it would be nice to listen to the port we set up. We will use [NetCat](https://en.wikipedia.org/wiki/Netcat) for this:
 
 ```$ nc -nlvp 4444``` (<--port)
 
