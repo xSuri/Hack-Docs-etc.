@@ -32,7 +32,7 @@ przypadków można ominąć sprawdzenie.
 obok "tun0" ( Twoje ip w VPN ). Port ustawmy na "hakerski" 4444. ($ip, $port). I zapiszmy plik.
 ( Ja użyłem edytora "nano", ale można użyć takiego, w którym jest Ci wygodniej np. "vi" )
 
-9. Żeby przechwycić reverse-shella przydałoby się nasłuchiwać port który ustawiliśmy. Użyjemy w tym celu "NetCat":
+9. Żeby przechwycić reverse-shella przydałoby się nasłuchiwać port który ustawiliśmy. Użyjemy w tym celu [NetCat](https://en.wikipedia.org/wiki/Netcat):
 
 ``` $ nc -nlvp 4444 ```(<--port)
 
