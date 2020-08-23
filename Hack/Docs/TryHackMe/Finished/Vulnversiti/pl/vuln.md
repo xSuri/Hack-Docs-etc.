@@ -70,8 +70,8 @@ Systemctl to plik binarny, który kontroluje interfejsy użytkowników i est odp
 podczas rozruchu. Domyślnie systemctl przeszuka pliki w "/etc/system/systemd" w celu poszukiwania i obsłużenia
 jednostek.
 
-19. Na tej maszynie nie możemy tworzyć nowych plików w ścieżkach należących do root'a, ale możemy zmienić zmienne 
-środowiskowe w już instniejącym, więc możemy zrobić PrivEsc.
+19. Na tej maszynie nie możemy tworzyć nowych plików w ścieżkach należących do root'a, ale możemy zmienić [zmienne 
+środowiskowe](https://pl.wikipedia.org/wiki/Zmienna_%C5%9Brodowiskowa) w już instniejącym, więc możemy zrobić PrivEsc.
 
 20. Pierwsze co robimy to tworzymy zmienną środowiskową:
 
