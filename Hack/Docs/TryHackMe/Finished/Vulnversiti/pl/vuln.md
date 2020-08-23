@@ -57,14 +57,14 @@ $ cat user.txt
 
 15. Wyświtliła nam się pierwsza "flaga" dla user'a.
 
-16. Teraz szukamy plików binarnych SUID. SUID to w skrócie uprawnienia danego użytkowanika do danych plików:
+16. Teraz szukamy plików binarnych SUID. [SUID](https://en.wikipedia.org/wiki/Setuid) to w skrócie uprawnienia danego użytkowanika do danych plików:
 
 ```$ find / -user root -perm -4000 -print 2>/dev/null```
 
 17. Widzimy teraz pare plików z ustawioną flagą SUID.
 
 18. Teraz musimy zrobić atak o nazwie [Privilege Escalation](https://en.wikipedia.org/wiki/Privilege_escalation) do podniesienia naszych uprawnień systemowych. Scanując
-flagę SUID znaleźliśmy plik o nazwie "systemctl".
+flagę SUID znaleźliśmy plik o nazwie [systemctl](https://www.freedesktop.org/software/systemd/man/systemctl.html).
 
 Systemctl to plik binarny, który kontroluje interfejsy użytkowników i est odpowiedzialny np. za uruchamiane usługi
 podczas rozruchu. Domyślnie systemctl przeszuka pliki w "/etc/system/systemd" w celu poszukiwania i obsłużenia
