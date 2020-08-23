@@ -12,11 +12,11 @@ terminalu:
 
 ``` $ nmap -sC -sV -T4 -A <Adress Ip> -oA nmap.nmap ```
 
-4. Z skanowania da się wydedykować, że na porcie "3333" działa Server Apache. Wpisujemy więc w naszą przeglądarke
+4. Z skanowania da się wydedykować, że na porcie "3333" działa [Server Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server). Wpisujemy więc w naszą przeglądarke
 AdressIp:3333 i patrzymy co na niej widnieje.
 
-5. Teraz z racji, że szukanie ręcznie ścieżek na stronie może być bardzo monotonne i nie efektywne użyjemy dirb,
-dirbuster, wfuzz, gobuster. W zależności w czym wam wygodniej. Ja użyje gobuster'a:
+5. Teraz z racji, że szukanie ręcznie ścieżek na stronie może być bardzo monotonne i nie efektywne użyjemy [dirb](https://medium.com/tech-zoom/dirb-a-web-content-scanner-bc9cba624c86),
+[dirbuster](https://ourcodeworld.com/articles/read/417/how-to-list-directories-and-files-of-a-website-using-dirbuster-in-kali-linux), [wfuzz](https://wfuzz.readthedocs.io/en/latest/user/basicusage.html), [gobuster](https://tools.kali.org/web-applications/gobuster). W zależności w czym wam wygodniej. Ja użyje gobuster'a:
 
 ``` $ gobuster dir -u http://<ip>:3333/ -w /usr/share/wordlists/dirbuster/directory-list-1.0.txt ```
 
