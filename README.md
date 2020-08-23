@@ -8,4 +8,9 @@ Hack-Docs-etc.
 # Info
 I am constantly improving my own skills and so far I do not share my projects very much, I am aware of many possible errors.
 
-all is in .md or file's scripts to hack machine. I'm beginner and I learn day for. Maybe can be make better. Have Fun!
+All is in .md or file's scripts to hack machine. I'm beginner and I learn day for. Maybe can be make better. Have Fun!
+
+
+# Warning
+
+***Everything I do is for educational purposes and "White hack". Every thing I do is sterile and on my machines or made available for study purposes (HTB, TryHackMe). The use of vulnerabilities on real servers without the consent of their owner is punished and strictly prohibited.***
