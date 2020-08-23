@@ -63,7 +63,7 @@ $ cat user.txt
 
 17. Widzimy teraz pare plików z ustawioną flagą SUID.
 
-18. Teraz musimy zrobić atak o nazwie "Privilege Escalation" do podniesienia naszych uprawnień systemowych. Scanując
+18. Teraz musimy zrobić atak o nazwie [Privilege Escalation](https://en.wikipedia.org/wiki/Privilege_escalation) do podniesienia naszych uprawnień systemowych. Scanując
 flagę SUID znaleźliśmy plik o nazwie "systemctl".
 
 Systemctl to plik binarny, który kontroluje interfejsy użytkowników i est odpowiedzialny np. za uruchamiane usługi
