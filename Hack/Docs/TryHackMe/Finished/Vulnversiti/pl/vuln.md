@@ -1,5 +1,5 @@
 1. Na początku musimy klasycznie połączyć się z VPN za pomocą OpenVPN.
-Wchodzimy na nasz profil pobieramy plik do połączanienia wchodzimy w "/Downloads" i wpisujemy w nowym
+Wchodzimy na nasz [profil](https://tryhackme.com/access) pobieramy plik do połączanienia wchodzimy w "/Downloads" i wpisujemy w nowym
 terminalu:
 
 ``` $ openvpn <Nazwa>.ovpn ```
