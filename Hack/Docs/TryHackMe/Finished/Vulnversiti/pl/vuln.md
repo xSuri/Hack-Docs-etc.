@@ -2,7 +2,7 @@
 Wchodzimy na nasz profil pobieramy plik do połączanienia wchodzimy w "/Downloads" i wpisujemy w nowym
 terminalu:
 
-[$ openvpn <Nazwa>.ovpn]
+``` $ openvpn <Nazwa>.ovpn ```
 
 
 2. Po tym otwieramy zadanie nr. 1 i odpalamy instancję ( Deploy ).
