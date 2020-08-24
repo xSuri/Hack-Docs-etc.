@@ -137,7 +137,7 @@ This will dump all password hashes on the computer if we have the appropriate pe
 
 Which user is not the default?
 
-16. Copy the hashes to the file to crack. (these NTLM hashes, paste them as you see in the console).
+16. Copy the hashes to the file to crack. (these [NTLM](https://en.wikipedia.org/wiki/NT_LAN_Manager) hashes, paste them as you see in the console).
 
 Let's organize the hash to crack. (user: hash <- the last "cluster of letters" in the line after : and before :::)
 
