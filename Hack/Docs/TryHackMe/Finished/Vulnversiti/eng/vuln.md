@@ -12,7 +12,7 @@ terminal:
 
 3. After all this, we can slowly start. The first thing we do is scan the machine:
 
-```$ nmap -sC -sV -T4 -A <IpAdress> -oA nmap.nmap```
+```$ nmap -sC -sV -T4 -A <IpAdress>```
 
 4. Scanning show us  the [Apache server](https://en.wikipedia.org/wiki/Apache_HTTP_Server) is running on port "3333". So we type in your browser
 Address: Ip: 3333 and we look at what's on it.

@@ -10,7 +10,7 @@ terminalu:
 
 3. Po tym wszystkim możemy powoli zaczynać. Pierwsze co robimy to skanujemy maszyne:
 
-``` $ nmap -sC -sV -T4 -A <Adress Ip> -oA nmap.nmap ```
+``` $ nmap -sC -sV -T4 -A <Adress Ip> ```
 
 4. Z skanowania da się wydedykować, że na porcie "3333" działa [Server Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server). Wpisujemy więc w naszą przeglądarke
 AdressIp:3333 i patrzymy co na niej widnieje.
@@ -107,7 +107,7 @@ $ /bin/systemctl enable --now $priv
 
 // Uzupełnienie rubryk 
 
-Zadanie.2
+Zadanie 2.
 
 1) 6
 
