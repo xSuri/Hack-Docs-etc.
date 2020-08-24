@@ -24,11 +24,11 @@ We can see that the machine is Windows 7.
 
 ```$ nmap --script vuln <ip> -vv```
 
-And we see smb-vuln-ms17-010 ( ms17-010 ).
+And we see smb-vuln-ms17-010 ( [ms17-010](https://www.exploit-db.com/exploits/42315) ).
 
 5. Now let's try to access the machine.
 
-6. Run metasploit:
+6. Run [metasploit](https://www.metasploit.com/):
 
 ```$ msfconsole```
 
