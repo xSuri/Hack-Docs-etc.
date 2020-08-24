@@ -134,7 +134,7 @@ Spowoduje to dumpowanie wszystkich hashy haseł na komputerze jeżeli mamy do te
 
 Który użytkownik nie jest defaultowy?
 
-16. Skopiuj hashe do pliku do złamania. ( to hashe NTLM wklej je tak jak widzisz w konsoli ).
+16. Skopiuj hashe do pliku do złamania. ( to hashe [NTLM](https://en.wikipedia.org/wiki/NT_LAN_Manager)  wklej je tak jak widzisz w konsoli ).
 
 Zorganizujmy hash do łamania. (user:hash <-- ostatni "zlepek liter" w lini po : i przed ::: )
 
