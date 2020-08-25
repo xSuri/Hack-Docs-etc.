@@ -1,9 +1,0 @@
-1.
-Na samym początku musimy się połączyć z VPN ( OpenVPN ), żeby klasycznie móc korzystać z maszyn na serwisie.
-Na naszym profilu da się pobrać plik. Po pobraniu odpalamy go w nowym terminalu.
-
-openvpn <Nazwa>.ovpn
-
-2.
-Po połączeniu możemy wejść w zadanie 1. i uruchomić instancje ( Deploy ), aby zaraz na niej zacząć pracować. Po włączeniuz
-
