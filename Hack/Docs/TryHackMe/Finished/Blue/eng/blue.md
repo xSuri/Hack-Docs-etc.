@@ -146,7 +146,7 @@ e.g.
 
 17. I will use the hashcat to crack the hash:
 
-``` $ hashcat -a 0 -m 1000 <HashFile>.txt <WordlistToCrack e.g. rockyou.txt>.txt --force --username --show ```
+``` $ hashcat -a 0 -m 1000 <HashFile>.txt <WordlistToCrack e.g. rockyou.txt>.txt --force --username --show ``` <-- show only after breaking
 
 After a while we should get the password to Jon (alqfna22)
 
