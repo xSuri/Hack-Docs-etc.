@@ -143,7 +143,7 @@ np.
 
 17. Ja użyje hashcat'a do złamania hashy.
 
-``` $ hashcat -a 0 -m 1000 <NazwaPlikuZHashami>.txt <SłownikDoŁamania np. rockyou.txt>.txt --force --username --show ```
+``` $ hashcat -a 0 -m 1000 <NazwaPlikuZHashami>.txt <SłownikDoŁamania np. rockyou.txt>.txt --force --username --show ``` <-- show dopiero po złamaniu
 
 Po chwili powinniśmy uzyskać hasło do Jon'a (alqfna22)
 
