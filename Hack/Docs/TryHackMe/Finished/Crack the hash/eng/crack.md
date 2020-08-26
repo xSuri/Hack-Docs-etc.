@@ -4,23 +4,27 @@ Let's start!
 
 1. The first thing we have to do is prepare your tools to cracking. I use [hashcat](https://hashcat.net/hashcat/).
 
+
 2. You can "crack" hash do 2 ways:
 
-1) count on the fact that when we enter it, for example in Google, it will show up already cracked.
+a) count on the fact that when we enter it, for example in Google, it will show up already cracked.
 
-2) if it doesn't work, we have to crack it ourselves.
+b) if it doesn't work, we have to crack it ourselves.
+
 
 3. There are a few basic hash attacks:
 
-1) Wordlist - we use a dictionary with earlier defined terms (words). (a0)
+a) Wordlist - we use a dictionary with earlier defined terms (words). (a0)
 
-2) Brute-Force - we generate the password and compare it in cracking. (a3)
+b) Brute-Force - we generate the password and compare it in cracking. (a3)
 
-3) Combinator - we have a dictionary and rules that define what happens to words. (a1)
+c) Combinator - we have a dictionary and rules that define what happens to words. (a1)
+
 
 4. To see hashcat options and crack types, type:
 
 ``` $ hashcat --help``` ,lub ``` $ hashcat -h ```
+
 
 5. Let's cut to the chase. The first hash and an example of the rest of the hash that we crack will be:
 
@@ -40,6 +44,7 @@ When the breaking is finished, just add to the command
 ``` --show```
 
 To display the broken password / word.
+
 
 6. The second type of hash is [SHA1](https://en.wikipedia.org/wiki/SHA-1) (m100).
 
