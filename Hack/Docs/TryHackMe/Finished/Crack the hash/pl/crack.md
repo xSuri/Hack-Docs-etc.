@@ -2,27 +2,32 @@ Witam!
 
 1. Pierwsze co musimy zrobić to przygotować swoje stanowisko ja będę łamać [hashcat](https://hashcat.net/hashcat/)'em.
 
+
 2. Można na 2 sposoby "łamać" hash:
 
-1) liczyć na to, że jak go wpiszemy np w Google to nam się pokaże już złamany.
+a) liczyć na to, że jak go wpiszemy np w Google to nam się pokaże już złamany.
 
-2) jak to nie zadziała musimy sami go złamać.
+b) jak to nie zadziała musimy sami go złamać.
+
 
 3. Wyróżniamy pare podstawowych ataków na hash:
 
-1) słownikowy (wordlist) - używamy słownika z prędzej zdefiniowanymi hasłami. (a0)
+a) słownikowy (wordlist) - używamy słownika z prędzej zdefiniowanymi hasłami. (a0)
 
-2) brutalną siłą (Brute-Force) - generujemy hasło i je porównujemy w łamaniu. (a3)
+b) brutalną siłą (Brute-Force) - generujemy hasło i je porównujemy w łamaniu. (a3)
 
-3) kombinatorowy (Combinator) - mamy słownik i reguły, które definiują co ma się dziać z słowami. (a1)
+c) kombinatorowy (Combinator) - mamy słownik i reguły, które definiują co ma się dziać z słowami. (a1)
+
 
 4. Aby zobaczyć opcje hashcat'a i typy crackowania wpisz:
 
 ``` $ hashcat --help``` ,lub ``` $ hashcat -h ```
 
+
 5. Przejdźmy do sedna. Pierwszym hash'em i przykładem reszty hashy, którego złamiemy będzie:
 
 ``` 48bb6e862e54f2a795ffc4e541caed4d ```
+
 
 Jeżeli jeszcze mniej więcej na oko nie znamy typów, albo chcemy się upewnić polecam narzędzie
 w kali linuxie o nazwie [hash-identifier](https://tools.kali.org/password-attacks/hash-identifier).
@@ -40,6 +45,7 @@ Jak łamanie się zakończy wystarczy dopisać do polecenia
 Aby wyświetliło nam się złamane hasło/słowo.
 
 Hasło: ```easy```
+
 
 6. Drugi typ hash'a to [SHA1](https://en.wikipedia.org/wiki/SHA-1) (m100).
 
