@@ -165,6 +165,7 @@ e.g. ``` type flag1.txt ```
 
 # Completing the headings
 
+<details>
 <summary>Task 1.</summary>
 
 ```
