@@ -100,38 +100,57 @@ $ /bin/systemctl enable --now $priv
 
 24. That's it. We just executed the command for the root user.
 
-// Completing the headings
+# Completing the headings
 
-Task 2.
+<details>
+<summary>Task 2.</summary>
 
-1) 6
+```
+  1) 6
 
-2) 3.5.12
+  2) 3.5.12
 
-3) 400
+  3) 400
 
-4) DNS
+  4) DNS
 
-5) Ubuntu
+  5) Ubuntu
 
-6) 3333
+  6) 3333
+```
+</details>
 
-Task 3.
+<details>
+<summary>Task 3.</summary>
 
-1) /internal/
+```
+  1) /internal/
 
-Task 4.
+```
+</details>
 
-1) .php
+<details>
+<summary>Task 4.</summary>
 
-2) .phtml
+```
+  1) .php
 
-3) bill
+  2) .phtml
 
-4) YOUR USER FLAG 
+  3) bill
 
-Task 5.
+  4) YOUR USER FLAG 
 
-1) /bin/systemctl
+```
+</details>
 
-2) YOUR ROOT FLAG 
+<details>
+<summary>Task 5.</summary>
+
+```
+  1) /bin/systemctl
+
+  2) YOUR ROOT FLAG 
+
+```
+</details>
