@@ -163,13 +163,18 @@ e.g. ``` type flag1.txt ```
 
 19. Congratulations you have completed all the tasks. Good luck!
 
-// Completing the headings
+# Completing the headings
 
-Task 1.
+<summary>Task 1.</summary>
 
-2) 3
+```
+  2) 3
 
-3) ms17-010
+  3) ms17-010
+```
+</details>
+
+
 
 Task 2. 
 
