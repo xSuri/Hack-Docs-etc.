@@ -105,38 +105,57 @@ $ /bin/systemctl enable --now $priv
 24. To tyle przed chwilą wykonaliśmy komendę dla użytkownika root.
 
 
-// Uzupełnienie rubryk 
+# Uzupełnienie rubryk 
 
-Zadanie 2.
+<details>
+<summary>Zadanie 2.</summary>
 
-1) 6
+```
+  1) 6
 
-2) 3.5.12
+  2) 3.5.12
 
-3) 400
+  3) 400
 
-4) DNS
+  4) DNS
 
-5) Ubuntu
+  5) Ubuntu
 
-6) 3333
+  6) 3333
+```
+</details>
 
-Zadanie 3.
+<details>
+<summary>Zadanie 3.</summary>
 
-1) /internal/
+```
+  1) /internal/
 
-Zadanie 4.
+```
+</details>
 
-1) .php
+<details>
+<summary>Zadanie 4.</summary>
 
-2) .phtml
+```
+  1) .php
 
-3) bill
+  2) .phtml
 
-4) Twoja flaga dla użytkownika (user-www..)
+  3) bill
 
-Zadanie 5.
+  4) Twoja flaga dla użytkownika (user-www..)
 
-1) /bin/systemctl
+```
+</details>
 
-2) Twoja flaga dla administratora (root)
+<details>
+<summary>Zadanie 5.</summary>
+
+```
+  1) /bin/systemctl
+
+  2) Twoja flaga dla administratora (root)
+
+```
+</details>
