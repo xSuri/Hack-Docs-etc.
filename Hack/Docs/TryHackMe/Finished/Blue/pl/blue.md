@@ -160,36 +160,74 @@ np. ``` type flag1.txt ```
 
 19. To powinno być na tyle. Powodzenia!
 
-// Uzupełnienie rubryk.
+# Uzupełnienie rubryk.
 
-Zadanie 1.
+<details>
+<summary>Zadanie 1.</summary>
 
-2) 3
+```
 
-3) ms17-010
+  2) 3
 
-Zadanie 2.
+  3) ms17-010
 
-2) exploit/windows/smb/ms17_010_eternalblue
 
-3) RHOSTS
+```
+</details>
 
-Zadanie 3.
+<details>
+<summary>Zadanie 2.</summary>
 
-1) post/multi/manage/shell_to_meterpreter
+```
 
-2) SESSION
 
-Zadanie 4.
+  2) exploit/windows/smb/ms17_010_eternalblue
 
-1) Jon
+  3) RHOSTS
 
-2) alqfna22
 
-Zadanie 5.
+```
+</details>
 
-1) Wpisz flage numer 1
+<details>
+<summary>Zadanie 3.</summary>
 
-2) Wpisz flage numer 2
+```
 
-3) Wpisz flage numer 3 
+  1) post/multi/manage/shell_to_meterpreter
+
+  2) SESSION
+
+```
+</details>
+
+<details>
+<summary>Zadanie 4.</summary>
+
+```
+
+  1) Jon
+
+  2) alqfna22
+
+```
+</details>
+
+<details>
+<summary>Zadanie 5..</summary>
+
+```
+
+  1) Wpisz flage numer 1
+
+  2) Wpisz flage numer 2
+
+  3) Wpisz flage numer 3 
+
+```
+</details>
+
+
+
+
+
