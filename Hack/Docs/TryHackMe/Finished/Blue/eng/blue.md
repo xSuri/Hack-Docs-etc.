@@ -176,29 +176,55 @@ e.g. ``` type flag1.txt ```
 </details>
 
 
+<details>
+<summary>Task 2. </summary>
 
-Task 2. 
+```
+  2) exploit/windows/smb/ms17_010_eternalblue
 
-2) exploit/windows/smb/ms17_010_eternalblue
+  3) RHOSTS
+```
+</details>
 
-3) RHOSTS
 
-Task 3.
+<details>
+<summary>Task 3. </summary>
 
-1) post/multi/manage/shell_to_meterpreter
+```
+  1) post/multi/manage/shell_to_meterpreter
 
-2) SESSION
+  2) SESSION
 
-Task 4.
+```
+</details>
 
-1) Jon
 
-2) alqfna22
+<details>
+<summary>Task 4. </summary>
 
-Task 5.
+```
 
-1) Write flag number 1
+  1) Jon
 
-2) Write flag number 2
+  2) alqfna22
 
-3) Write flag number 3 
+```
+</details>
+
+<details>
+<summary>Task 5. </summary>
+
+```
+
+  1) Write flag number 1
+
+  2) Write flag number 2
+
+  3) Write flag number 3 
+
+
+```
+</details>
+
+
+
