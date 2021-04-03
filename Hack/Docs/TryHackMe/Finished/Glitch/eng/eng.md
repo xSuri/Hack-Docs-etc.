@@ -24,7 +24,7 @@ We have endpoint to `first api`
 
 5) You will immediately notice that the sequence looks familiar it is `base64`.
 
-Go to, for example, this page: (base64decode.org/)[base64_decode]
+Go to, for example, this page: [base64_decode](base64decode.org/)
 
 We enter  `encoded token` and get `decoded`:
 
@@ -87,7 +87,7 @@ We see an eval function that should give us a lot to think about:
 
 13) We are interested in `POST`. We are looking for `NodeJs RCE eval` on the internet.
 
-I used this site: (https://blog.appsecco.com/nodejs-and-a-simple-rce-exploit-d79001837cc6)[site]
+I used this site: [site](https://blog.appsecco.com/nodejs-and-a-simple-rce-exploit-d79001837cc6)
 
 There I have noticed the `exploit` it will use.
 
@@ -109,7 +109,7 @@ We may notice the hidden `.firefox` directory. We enter it `cd .firefox`.
 
 We see what looks like the session directory `b5w4643p.default-release`.
 
-17) We download to our machine: (https://github.com/unode/firefox_decrypt)[Firefox_decrypt]
+17) We download to our machine: [Firefox_decrypt](https://github.com/unode/firefox_decrypt)
 
 We pack sessions from the server `tar -cf archive.tar ./b*`.
 
