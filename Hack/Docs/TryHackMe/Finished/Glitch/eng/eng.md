@@ -1,6 +1,6 @@
-1) Wait about 5 minutes until the 'error 502' disappears and the page loads.
+1) Wait about 5 minutes until the `error 502` disappears and the page loads.
 
-2) Open the `development tools` and open the  tag script`.
+2) Open the `development tools` and open the  `tag script`.
 
 3) From the code below:
 
