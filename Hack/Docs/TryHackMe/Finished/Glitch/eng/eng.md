@@ -30,15 +30,15 @@ We enter  `encoded token` and get `decoded`:
 
 ```this_is _ * _ **```
 
-6) Go back to the `main page` and go to the` development tools`.
+6) Go back to the `main page` and go to the `development tools`.
 
 We go to the `Cookies` tab and see the `token` set to the value of `value`, double click on it and change the value to `decoded token`.
 
-After all this 'refresh the page' (f5)
+After all this `refresh the page` (f5)
 
 7) Another page appears, go to the `debugger` tab.
 
-On the left panel, open the `js` tab and click on the` script.js` file
+On the left panel, open the `js` tab and click on the `script.js` file
 
 ```
   const container = document.getElementById ('items');
@@ -53,7 +53,7 @@ From the above code we can see another endpoint to the `next API`.
 
 8) We append it to our `link` and intercept the `request` with e.g. the `burp` program in my example.
 
-9) We do `send to reapeater` and we do` send`.
+9) We do `send to reapeater` and we do `send`.
 
 If unsuccessful `remove` from` Header request`:
 
