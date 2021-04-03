@@ -113,7 +113,7 @@ We see what looks like the session directory `b5w4643p.default-release`.
 
 We pack sessions from the server `tar -cf archive.tar ./b*`.
 
-Using (https://nakkaya.com/2009/04/15/using-netcat-for-file-transfers/)[netcat] we send the file to our computer.
+Using [netcat](https://nakkaya.com/2009/04/15/using-netcat-for-file-transfers/) we send the file to our computer.
 
 On our computer, type: `nc -l -p 1234> ./archive.tar`.
 
