@@ -24,7 +24,7 @@ Wyciagamy endpoint do pierwszego api.
 
 5) Mozna od razu zauwazyc ze ciag wyglada znajomo jest to `base64`.
 
-Wchodzimy na np. te strone: (base64decode.org/)[base64_decode]
+Wchodzimy na np. te strone: [base64_decode](base64decode.org/)
 
 Wpisujemy nasz `zakodowany token` i dostajemy `odkodowany`:
 
@@ -87,7 +87,7 @@ Widzimy funkcje `eval`, ktora powinna nam dac duzo do myslenia:
 
 13) Interesuje nas `POST`. Szukamy w internecie `NodeJs RCE eval`. 
 
-Ja skorzystalem z tej strony: (https://blog.appsecco.com/nodejs-and-a-simple-rce-exploit-d79001837cc6)[strona]
+Ja skorzystalem z tej strony: [strona](https://blog.appsecco.com/nodejs-and-a-simple-rce-exploit-d79001837cc6)
 
 Zauwazylem tam `exploit` ktory uzyje.
 
@@ -109,11 +109,11 @@ Moze nam sie rzucic w oczy ukryty katalog `.firefox`. Wchodzimy w niego `cd .fir
 
 Widzimy cos co wyglada jak katolog sesji `b5w4643p.default-release`.
 
-17) Na nasza maszyne pobieramy: (https://github.com/unode/firefox_decrypt)[Firefox_decrypt]
+17) Na nasza maszyne pobieramy: [Firefox_decrypt](https://github.com/unode/firefox_decrypt)
 
 Pakujemy sesje z servera `tar -cf archive.tar ./b* `.
 
-Za pomoca (https://nakkaya.com/2009/04/15/using-netcat-for-file-transfers/)[netcata] wysylamy plik na nasz komputer.
+Za pomoca [netcata](https://nakkaya.com/2009/04/15/using-netcat-for-file-transfers/) wysylamy plik na nasz komputer.
 
 Na naszym komputerze wpisujemy: `nc -l -p 1234 > ./archive.tar`.
 
