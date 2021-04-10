@@ -6,6 +6,10 @@ All is in .md or file's scripts to hack machine. I'm beginner and I learn day fo
 Not everything is only mine knowledge as I mentioned, I am still learning and also having someone's knowledge (I am mostly self-taught), adds my own observations, etc.
 Have Fun!
 
+# Info #2
+
+He writes here about some machines doing the so-called The "writeups", unfortunately I didn't describe them all and now I probably won't be able to do it because there are "some" of them. Hope I won't skip now none. (it should be here with time and possibilities more and more writeups and stuff from different ctf's etc).
+
 
 # Warning
 
